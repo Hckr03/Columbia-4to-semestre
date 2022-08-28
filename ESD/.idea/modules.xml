@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ESD.iml" filepath="$PROJECT_DIR$/.idea/ESD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio de repaso propuesto - Gabriel Caballero/Ejercicio de repaso propuesto - Gabriel Caballero.iml" filepath="$PROJECT_DIR$/Ejercicio de repaso propuesto - Gabriel Caballero/Ejercicio de repaso propuesto - Gabriel Caballero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LaboratorioESD/LaboratorioESD.iml" filepath="$PROJECT_DIR$/LaboratorioESD/LaboratorioESD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proveedores/Proveedores.iml" filepath="$PROJECT_DIR$/Proveedores/Proveedores.iml" />
+    </modules>
+  </component>
+</project>

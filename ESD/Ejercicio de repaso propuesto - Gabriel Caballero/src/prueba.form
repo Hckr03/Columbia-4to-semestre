@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Nacionalidad">
+  <grid id="27dc6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1252" height="264"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f95df" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="a461e" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="ID"/>
+        </properties>
+      </component>
+      <component id="f8d2a" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="3bf42" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Descripción"/>
+        </properties>
+      </component>
+      <component id="6054c" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Comentario"/>
+        </properties>
+      </component>
+      <component id="739b0" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="30db4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font size="36" style="1"/>
+          <text value="NACIONALIDAD"/>
+        </properties>
+      </component>
+      <component id="e8003" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="7dea5" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="41ac5" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
