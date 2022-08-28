@@ -1,19 +1,21 @@
+package Clases;
+
 import java.time.Period;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
 
-public class Persona {
+public class Personas {
     private Integer cedula, peso, altura;
-    private String nombres, apellidos, telefono;
-    private int sexo;
-    private Date fechaNacimiento;
+    private String nombres, apellidos, telefono, sexo;
+
+    private String fechaNacimiento;
     private Double imc;
     private Ciudades ciudad;
     private List<Nacionalidades> listaNacionalidades;
 
-    public Persona() {
+    public Personas() {
         
     }
 
@@ -33,7 +35,7 @@ public class Persona {
         return ciudad;
     }
 
-    public Persona(Integer cedula, String nombres, String apellidos) {
+    public Personas(Integer cedula, String nombres, String apellidos) {
             System.out.println("Nombre: " +nombres+ "\nApellidos: " +apellidos+ "\nCedula: " +cedula);
     }
     
@@ -61,11 +63,11 @@ public class Persona {
         this.apellidos = apellidos;
     }
 
-    public int getSexo() {
+    public String getSexo() {
         return sexo;
     }
 
-    public void setSexo(int sexo) {
+    public void setSexo(String sexo) {
         this.sexo = sexo;
     }
 
@@ -77,11 +79,11 @@ public class Persona {
         this.telefono = telefono;
     }
 
-    public Date getFechaNacimiento() {
+    public String getFechaNacimiento() {
         return fechaNacimiento;
     }
 
-    public void setfechaNacimiento(Date fechaNacimiento) {
+    public void setfechaNacimiento(String fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 
@@ -117,9 +119,10 @@ public class Persona {
         }
     }
 
-    public void calcularEdad(String fecha) {
+    public void calcularEdad(String fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate fechaNac = LocalDate.parse(fecha, fmt);
+        LocalDate fechaNac = LocalDate.parse(fechaNacimiento, fmt);
         LocalDate ahora = LocalDate.now();
         Period periodo = Period.between(fechaNac, ahora);
         System.out.printf("Tu edad es: %s años, %s meses y %s días\n",

@@ -1,10 +1,9 @@
+package Clases;
+
 public class Nacionalidades {
     private Integer idNacionalidad;
     private String descripcion, comentario;
 
-    private Nacionalidades(){
-
-    }
 
     public void setIdNacionalidad(Integer idNacionalidad){ 
         this.idNacionalidad = idNacionalidad;

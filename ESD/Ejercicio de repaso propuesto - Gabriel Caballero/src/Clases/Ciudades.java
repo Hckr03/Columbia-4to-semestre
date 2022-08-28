@@ -1,7 +1,9 @@
+package Clases;
+
 public class Ciudades {
     private Integer idCiudades;
     private String descripcion, comentario;
-    // private Departamentos departamento;
+    // private Clases.Departamentos departamento;
 
     public Ciudades(){
 
@@ -11,8 +13,8 @@ public class Ciudades {
         this.idCiudades = idCiudades;
         this.descripcion = descripcion;
         this.comentario = comentario;
-        // departamento = new Departamentos();
-        // for(Ciudades ciudad : departamento.getListaCiudades()){
+        // departamento = new Clases.Departamentos();
+        // for(Clases.Ciudades ciudad : departamento.getListaCiudades()){
         //     System.out.println("idCiudad: " + ciudad.getIdCiudades());
         //     System.out.println("Descripcion: " + ciudad.getDescripcion());
         //     System.out.println("Comentario: " + ciudad.getComentario());
