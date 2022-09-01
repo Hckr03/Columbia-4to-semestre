@@ -5,7 +5,6 @@ import Clases.Personas;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Date;
 
 public class Persona extends JFrame {
     private Personas persona;
@@ -88,4 +87,11 @@ public class Persona extends JFrame {
     private JLabel fechaDeNacLabel;
     private JTextField txtFechaNac;
     private JTextField txtSexo;
+    private JTextField txtID;
+    private JLabel idLabel;
+    private JComboBox comboCiudad;
+    private JComboBox comboNacinalidad;
+    private JLabel ciudadLabel;
+    private JLabel nacionalidadLabel;
+    private JComboBox comboBox1;
 }
