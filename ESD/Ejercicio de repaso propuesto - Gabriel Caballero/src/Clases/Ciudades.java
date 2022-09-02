@@ -3,7 +3,7 @@ package Clases;
 public class Ciudades {
     private Integer idCiudades;
     private String descripcion, comentario;
-    // private Clases.Departamentos departamento;
+    private Departamentos departamento;
 
     public Ciudades(){
 
@@ -13,12 +13,12 @@ public class Ciudades {
         this.idCiudades = idCiudades;
         this.descripcion = descripcion;
         this.comentario = comentario;
-        // departamento = new Clases.Departamentos();
-        // for(Clases.Ciudades ciudad : departamento.getListaCiudades()){
-        //     System.out.println("idCiudad: " + ciudad.getIdCiudades());
-        //     System.out.println("Descripcion: " + ciudad.getDescripcion());
-        //     System.out.println("Comentario: " + ciudad.getComentario());
-        // }
+         departamento = new Departamentos();
+         for(Clases.Ciudades ciudad : departamento.getListaCiudades()){
+             System.out.println("idCiudad: " + ciudad.getIdCiudades());
+             System.out.println("Descripcion: " + ciudad.getDescripcion());
+             System.out.println("Comentario: " + ciudad.getComentario());
+         }
     }
 
     public void setIdCiudades(Integer idCiudades){
