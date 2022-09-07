@@ -9,7 +9,6 @@ import java.util.List;
 public class Personas {
     private Integer cedula, peso, altura;
     private String nombres, apellidos, telefono, sexo;
-
     private String fechaNacimiento;
     private Double imc;
     private Ciudades ciudad;

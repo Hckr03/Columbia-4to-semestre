@@ -1,4 +1,4 @@
-package Herencia;
+package Herencia.Clases;
 
 public class Base {
     private Integer id;

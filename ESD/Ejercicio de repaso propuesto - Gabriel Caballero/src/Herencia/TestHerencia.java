@@ -1,5 +1,7 @@
 package Herencia;
 
+import Herencia.Clases.Barrios;
+
 public class TestHerencia {
     Barrios barrio;
 

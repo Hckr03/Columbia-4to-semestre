@@ -1,4 +1,4 @@
-package Herencia;
+package Herencia.Clases;
 
 public class Barrios extends Base {
     private String cantidadHabitantes;
