@@ -6,12 +6,21 @@ public class Personas {
 
 //    public int id, nro_cedula;
 //    el tipo de variable "int" no soporta la cantidad de numeros que tiene un CI
-    public Integer id, nro_cedula; //nueva declaracion de variables
+//    para proteger estos datos se cambio el tipo de visibilidad de las variables
+    private Integer id, nro_cedula; //nueva declaracion de variables
 
 //    public char nombres, apellidos, nro_telefono;
 //    el tipo de variable "char" no es capaz de recibir textos muy extensos
-    public String nombres, apellidos, nro_telefono; //nueva declaracion de variables
-    public Date fechaNac;
+//    para proteger estos datos se cambio el tipo de visibilidad de las variables
+    private String nombres, apellidos, nro_telefono; //nueva declaracion de variables
+
+//    para proteger estos datos se cambio el tipo de visibilidad de las variables
+    private Date fechaNac;
+
+    //faltaba un constructor vacio para la clase
+    public Personas(){
+
+    }
 
 //    el constructor se modifico el tipo de datos o parametros para que coincida con los nuevas variables declaradas
     public Personas (Integer id, Integer nro_cedula, String nombres, String apellidos, String nro_telefono, Date fechaNac){
