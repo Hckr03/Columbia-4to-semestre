@@ -8,7 +8,10 @@ public class Personas {
     private String direccion;
 
     public Personas(){
-
+    }
+    public Personas(String nombres, String apellidos){
+        this.nombres = nombres;
+        this.apellidos = apellidos;
     }
 
     public String getNroCedula() {

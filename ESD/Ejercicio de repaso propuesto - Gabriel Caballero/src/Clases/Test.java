@@ -6,8 +6,8 @@ import java.util.List;
 public class Test {
      private Personas persona, persona2;
      private Clientes clientes;
-    private Departamentos departamento;
-    private List<Ciudades> ciudades;
+     private Departamentos departamento;
+     private List<Ciudades> ciudades;
     
     public Test() {
          persona = new Clases.Personas(3713700, "Gabriel Enrique", "Caballero Barrios");
@@ -16,7 +16,7 @@ public class Test {
          persona2.calcularEdad("12/03/1991");
          persona2.calcularIMC(1.74, 116.0);
 
-         clientes = new Clases.Clientes();
+         clientes = new Clientes();
          clientes.setNroTelefono(82125910);
          System.out.println(clientes.getNroTelefono());
 
