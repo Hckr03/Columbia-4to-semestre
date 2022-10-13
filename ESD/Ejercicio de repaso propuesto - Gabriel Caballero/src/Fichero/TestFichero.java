@@ -8,7 +8,7 @@ public class TestFichero {
         if(gestion.verificarFichero(url)){
             gestion.gestionarFichero(url);
             for(Ruc ruc: gestion.obtenerRegistros()){
-                System.out.println("Razon social: " + ruc.getRazonSocial());
+                System.out.println("Razon social: " + ruc.getRazonSocial() +" "+ ruc.getNroRuc()  +" "+ ruc.getDv()  +" "+  ruc.getRucAnterior()  +" "+ ruc.getEstado());
             }
         }
     }
